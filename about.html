@@ -5,6 +5,12 @@
     <!-- META TAGS -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!--FONTS-->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap" rel="stylesheet">
+    <!--CSS LINKS-->
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="https://necolas.github.io/normalize.css/8.0.1/normalize.css">
     <!-- TITLE TAG -->
     <title>Alan | Front End Web Developer</title>
 </head>
@@ -14,7 +20,7 @@
     <!-- HEADER START -->
     <header>
         <!-- CLICKABLE TITLE THAT BRINGS YOU TO THE HOME PAGE -->
-        <a href="index.html">
+        <a id="logo" href="index.html">
             <h1>Alan</h1>
             <h2>Front End Web Developer</h2>
         </a>
@@ -23,33 +29,30 @@
         <nav>
             <ul>
                 <li><a href="index.html">Portfolio</a></li>
-                <li><a href="#">About</a></li>
+                <li><a class="selected" href="#">About</a></li>
                 <li><a href="contact.html">Contact</a></li>
             </ul>
         </nav>
     </header>
+    <!-- HEADER END -->
 
-    <div>
-        <!-- HEADER END -->
-
+    <div class="container">
         <!--START OF FIRST COLUMN-->
-        <img src="img/phone.png" alt=Alan">
-
+        <img id="about-pic" src="img/2011-09-22 18.42.58.jpg" alt="Doodle of Alan">
         <!--END OF FIRST COLUMN-->
-
 
         <!--START OF SECOND COLUMN-->
         <!--Title-->
-        <h3>About</h3>
-
-        <!--About paragraph-->
-
-
-        <p>Hello, I am Alan.</p>
-        <p>If you would like to follow me, <a href="https://twitter.com" target="_blank">click here</a>
-        </p>
+        <section class="about">
+            <h3>About Me</h3>
+            <!--About paragraph-->
+            <p>Hi there! My name is Alan. I'm a front end web devloper. This is my portfolio where I share all of my
+                favorite work.
+            </p>
+            <p>If you'd like to keep up, follow me, <a href="https://www.instagram.com/" target="_blank">here</a>
+            </p>
+        </section>
         <!--END OF SECOND COLUMN-->
-
     </div>
 
 
