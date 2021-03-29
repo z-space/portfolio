@@ -5,24 +5,35 @@
     <!-- META TAGS -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!--FONTS-->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <!--CSS LINKS-->
+    <link rel="stylesheet" href="https://necolas.github.io/normalize.css/8.0.1/normalize.css">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/responsive.css">
+
+
+
     <!-- TITLE TAG -->
     <title>Alan | Front End Web Developer</title>
 </head>
-
 
 <body>
     <!-- HEADER START -->
     <header>
         <!-- CLICKABLE TITLE THAT BRINGS YOU TO THE HOME PAGE -->
-        <a href="index.html">
+        <a id="logo" href="index.html">
             <h1>Alan</h1>
             <h2>Front End Web Developer</h2>
+
         </a>
 
         <!-- Navigation menu with portfolio, about and contact links-->
-        <nav>
+        <nav class="nav">
             <ul>
-                <li><a href="#">Portfolio</a></li>
+                <li><a class="selected" a href="#">Portfolio</a></li>
                 <li><a href="about.html">About</a></li>
                 <li><a href="contact.html">Contact</a></li>
             </ul>
@@ -31,11 +42,9 @@
     <!-- HEADER END -->
 
     <!--GALLERY START-->
-
-    <div>
+    <div id="wrapper">
         <!--START LIST OF PHOTOS-->
-
-        <ul>
+        <ul id="gallery">
             <li>
                 <img src="img/numbers-01.jpg" alt="Number 1">
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing.</p>
@@ -58,27 +67,22 @@
             <li>
                 <img src="img/numbers-12.jpg" alt="Number 12">
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing.</p>
-
             </li>
         </ul>
-
-
-
     </div>
-
-
-
     <!--GALLERY END-->
+
     <!-- FOOTER START -->
     <footer>
         <!-- Link to Twitter -->
-        <a href="https://twitter.com" target="_blank"><img src="img/twitter-wrap.png"></a>
+        <a href="https://twitter.com" target="_blank"><img class="social-icon" src="img/twitter-wrap.png"></a>
         <!-- Link to Facebook -->
-        <a href="https://facebook.com" target="_blank"><img src="img/facebook-wrap.png"></a>
+        <a href="https://facebook.com" target="_blank"><img class="social-icon" src="img/facebook-wrap.png"></a>
         <!-- Copyright -->
         <p>&copy 2021 Alan Miller</p>
     </footer>
     <!-- FOOTER END -->
+
 </body>
 
 </html>
