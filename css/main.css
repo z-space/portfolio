@@ -36,7 +36,6 @@ h2 {
     margin: -5px 0 0 0;
 }
 
-
 /*************************
 HEADER
 *************************/
@@ -52,8 +51,6 @@ header {
     text-align: left;
 }
 
-
-
 /*************************
 NAVIGATION
 *************************/
@@ -65,7 +62,7 @@ nav li {
 nav {
     text-align: center;
     padding: 10px;
-    margin: 60px 0 0;
+    margin: 30px 0 0;
 }
 
 nav a {
@@ -76,10 +73,6 @@ nav a {
 nav ul {
     padding: 0px;
 }
-
-
-
-
 
 /*************************
 FOOTER
@@ -97,7 +90,6 @@ footer {
     height: 20px;
     margin: 0px;
 }
-
 
 /*************************
 PAGE: PORTFOLIO
@@ -123,15 +115,36 @@ PAGE: PORTFOLIO
     padding: 0px;
 }
 
-
-
 /*************************
 PAGE: CONTACT
 *************************/
 
+.contact-info li.phone a {
+    background-image: url('../img/phone.png');
+}
 
+.contact-info li.email a {
+    background-image: url('../img/mail.png');
+}
 
+.contact-info li.twitter a {
+    background-image: url('../img/twitter.png');
+}
 
+.contact-info a {
+    display: block;
+    background-repeat: no-repeat;
+    min-height: 20px;
+    background-size: 20px 20px;
+    padding: 0 0 0 30px;
+    margin: 0 0 10px;
+}
+
+.contact-info {
+    padding:  0px;
+    margin: 0px;
+    font-size: .9em;
+}
 
 /*************************
 PAGE: ABOUT
@@ -141,9 +154,8 @@ PAGE: ABOUT
     max-width: 150px;
     border: 2px solid black;
     border-radius: 100%;
-    margin: 0 5% 80px
+    margin: 0 auto 30px;
 }
-
 
 /*************************
 COLORS
