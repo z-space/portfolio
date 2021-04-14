@@ -1,0 +1,1 @@
+This website serves as a professional portfolio for myself. It showcases some of my work as videographer, photographer and front end web developer. This includes a short autoplay and looping video demo reel, photographs I have taken and examples of my web development work.
