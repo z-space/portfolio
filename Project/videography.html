@@ -7,41 +7,53 @@
   <link rel="stylesheet" href="css/normalize.css">
   <link rel="stylesheet" href="css/app.css">
   <link rel="preconnect" href="https://fonts.gstatic.com">
-  <link href="https://fonts.googleapis.com/css2?family=Rajdhani:wght@300&display=swap" rel="stylesheet">
-  <link rel="preconnect" href="https://fonts.gstatic.com">
-  <link href="https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap" rel="stylesheet">
-  <title>Alan Miller</title>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;400;500;600&family=Permanent+Marker&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css">
+  <title>Alan Miller | Videography</title>
 </head>
 
 <body>
+  <div class="main-container">
+    <nav>
 
-  <nav>
+      <a id="logo" href="index.html">
+        <h1>AM</h1>
+      </a>
+      <ul>
+        <li><a class="selected" href="videography.html">Videography</a></li>
+        <li><a href="photography.html">Photography</a></li>
+        <li><a href="development.html">Web Development</a></li>
+        <li><a href="about.html">About Me</a></li>
+      </ul>
+    </nav>
 
-    <a id="logo" href="index.html">
-      <h1>AM</h1>
-    </a>
-    <ul>
-      <li><a class="selected" href="videography.html">Videography</a></li>
-      <li><a href="photography.html">Photography</a></li>
-      <li><a href="development.html">Web Development</a></li>
-      <li><a href="about.html">About Me</a></li>
-    </ul>
-  </nav>
+    <div id="vimeoContainer">
+      <iframe class="vimeo" title="vimeo-player" src="https://player.vimeo.com/video/84185145" width="640" height="360"
+        frameborder="0" allowfullscreen></iframe>
+      <iframe class="vimeo" src="https://player.vimeo.com/video/234240767" width="640" height="360" frameborder="0"
+        allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>
+      <iframe class="vimeo" title="vimeo-player" src="https://player.vimeo.com/video/127974778" width="640" height="360"
+        frameborder="0" allowfullscreen></iframe>
+      <iframe class="vimeo" title="vimeo-player" src="https://player.vimeo.com/video/123559709" width="640" height="360"
+        frameborder="0" allowfullscreen></iframe>
+    </div>
+  </div>
 
-
-  <main>
-
-
-
-
-
-
-  </main>
+  <button onclick="topFunction()" id="top" title="Back to top"><i class="bi bi-arrow-up-circle"></i> Back to
+    Top</button>
 
   <footer>
+    <a href="https://github.com/z-space"><i class="bi bi-github"></i></a>
+    <a href="https://www.instagram.com/pickupthatcan/"><i class="bi bi-instagram"></i></a>
+    <a href="https://www.linkedin.com/in/alan-r-miller" target="_blank"><i class="bi bi-linkedin"></i></a>
+    <a href="mailto:alanmiller84@gmail.com" target="_blank"><i class="bi bi-envelope-open"></i></a>
     <p>&copy; Alan Miller 2021</p>
   </footer>
 
+  </div>
+  <script src="javaScript/script.js"></script>
 </body>
 
 </html>
